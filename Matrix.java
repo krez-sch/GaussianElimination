@@ -93,7 +93,7 @@ public class Matrix {
 		 */
 		for (int pos=0; pos < matrixSize; pos++)
 		{
-			solution[pos]     = matrix[pos][pos];
+			solution[pos]    /= matrix[pos][pos];
 			matrix[pos][pos] /= matrix[pos][pos];
 			solutionInt[pos]  = (int) Math.round(solution[pos]);
 		}
