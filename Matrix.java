@@ -88,7 +88,7 @@ public class Matrix {
 		solutionInt = new int[matrixSize];
 		
 		/*
-		 * Reduce all values in the matrix to 0, the resulting numbers will be the final answer.
+		 * Reduce all values in the matrix to 1, the resulting numbers will be the final answer.
 		 * The numbers given will result in integers, so we can round those accordingly.
 		 */
 		for (int pos=0; pos < matrixSize; pos++)
